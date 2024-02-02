@@ -1,0 +1,87 @@
+.integrations-integrations {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-sevenunits);
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #EFF0F2;
+}
+.integrations-centered-container {
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.integrations-heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.integrations-text2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-fiveunits);
+}
+.integrations-pills-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.integrations-pills {
+  width: 100%;
+  display: flex;
+  grid-gap: var(--dl-space-space-twounits);
+  flex-wrap: wrap;
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: row;
+  justify-content: center;
+}
+.integrations-container {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.integrations-container1 {
+  flex: 0 0 auto;
+  width: 240px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.integrations-container2 {
+  gap: var(--dl-space-space-twounits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: var(--dl-space-space-fiveunits);
+  flex-direction: row;
+  justify-content: center;
+}
+@media(max-width: 991px) {
+  .integrations-container2 {
+    margin-left: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .integrations-integrations {
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .integrations-text2 {
+    line-height: 24px;
+  }
+  .integrations-pills {
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+}
